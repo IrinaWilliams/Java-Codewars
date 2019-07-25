@@ -82,4 +82,16 @@ public class Kata
 //assertEquals(5, Kata.squareSum(new int[] {1,2}));
 //assertEquals(50, Kata.squareSum(new int[] {5,-3,4}));
 ```
+[7 kyu Maximum Multiple](https://www.codewars.com/kata/maximum-multiple/train/javascript)
+```java
+public class MaxMultiple {
+  public static int maxMultiple(int divisor, int bound) {
+   int res = 0;
+  for(int i = divisor; i <= bound; i += divisor) {
+   res = i;
+  }
+  return res;
+  }
+}
+```
 
