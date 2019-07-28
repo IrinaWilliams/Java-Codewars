@@ -110,4 +110,17 @@ public class Fibonacci {
   }
 }
 ```
-
+[8 kyu Remove exclamation marks](https://www.codewars.com/kata/remove-exclamation-marks/train/java)
+```java
+class Solution {
+    static String removeExclamationMarks(String s) {
+      String a = "";
+        for(int i = 0; i < s.length(); i++) {
+          if(s.charAt(i) != '!') {
+            a += s.charAt(i);
+          }
+        }
+      return a;
+    }
+}
+```
