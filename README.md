@@ -129,3 +129,13 @@ class Solution {
     }
 }
 ```
+[8 kyu Hex to Decimal](https://www.codewars.com/kata/hex-to-decimal/train/java)
+```java
+public class Kata {
+
+  public static int hexToDec(final String hexString) {
+    int intHex = Integer.parseInt(hexString, 16);
+    return intHex;
+  }
+}
+```
